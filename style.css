@@ -376,6 +376,61 @@ aside h3{
     min-width: 238px;
     max-width: 331px;
 }
+.section_5{
+    height: 906px;
+    width: 1440px;
+    background-color: #292E36;
+}
+.section_6{
+    height: 600px;
+    width: 1440px;
+    background-image: url(assets/pics/section_6_back.png);
+}
+.section_7{
+    margin-top: 40px;
+    height: 613px;
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+}
+.section_8 {
+    margin-top: 40px;
+    height: 796.62px;
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+}
+.section_9{
+    height: 515px;
+    width: 1440px;
+    background-color: #292E36;
+}
+.section_10 {
+    margin-top: 40px;
+    height: 974px;
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+}
+.section_11{
+    width: 1440px;
+    height: 977px;
+    background-image: url(assets/pics/11_back.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_11 div{
+    width: 920px;
+    height: 697px;
+    background-color: rgba(41, 46, 54, 0.95);
+}
+footer{
+    height: 655px;
+    width: 1440px;
+    background-color: #292E36;
+}
+
 
 @font-face {
     font-family: 'Josefin';
