@@ -385,6 +385,24 @@ aside h3{
     align-items: center;
     justify-content: center;
 }
+.text_on_black1{
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 30px;
+}
+.text_on_black1 p:first-child{
+    font-size: 20px;
+    width: 141px;
+    height: 27px;
+    margin-left: 0;
+}
+.text_on_black1 p:last-child{
+    font-size: 20px;
+}
+.text_on_black1 h3{
+    font-size: 40px;
+    margin: 20px 0;
+}
 .five_responds{
     display: flex;
     flex-direction: row;
@@ -399,18 +417,78 @@ aside h3{
     flex-direction: column;
     justify-content: flex-start;
     color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .respond_top{
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    margin-left: 0;
 }
 .respond_line{
     height: 1px;
     width: 464px;
     background-color: #797E89;
+    margin: 10px 0;
+    display: flex;
+    justify-self: center;
 }
-.respond img{
+.respond_img1{
     margin-left: 0;
+    height: 113px;
+    width: 113px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url(assets/pics/sec_5_1img.png);
+}
+.respond_img2{
+    margin-left: 0;
+    height: 113px;
+    width: 113px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url(assets/pics/sec_5_2img.png);
+}
+.respond_top img{
+    margin-left: 0;
+}
+.respond_img1{
+    margin-left: 25px;
+}
+.respond_img2{
+    margin-left: 25px;
+}
+.respond_top p:first-child{
+    font-size: 30px;
+    font-family: "Cormorant";
+}
+.respond_top p:last-child{
+    color: #E1B168;
+    font-size: 20px;
+}
+.respond_text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Cormorant";
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.respond_text p{
+    margin-left: 0;
+}
+.respond_bottom{
+    font-size: 24px;
+    font-family: "Cormorant";
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 .five_circules{
     display: flex;
@@ -442,21 +520,114 @@ aside h3{
 }
 .dishes_text{
     text-align: center;
+    width: 100%;
+    height: 184px;
+}
+.dishes_text p:first-child{
+    width: 78px;
+    height: 27px;
 }
 .dishes_text p:last-child{
     font-size: 20px;
+    width: 813px;
+}
+.dishes_text h3{
+    margin: 20px 0;
+    font-size: 40px;
 }
 .seven_cards{
     display: flex;
     flex-direction: row;
 }
-.card{
+.card1{
     width: 655px;
     height: 409px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/pics/burger_back.png);
+    margin-right: 40px;
+}
+.card_text1{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.seven_cards img{
+    height: 232px;
+    width: 307px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.card2{
+    width: 655px;
+    height: 409px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/pics/pizza_back.png);
 }
 .dishes_text h3{
     font-family: 'Cormorant';
     font-size: 40px;
+}
+.seven_pl1{
+    height: 104px;
+    width: 166px;
+    background-image: url(assets/icons/pl_white.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+    margin-left: 0;
+}
+.seven_pl1 p:first-child{
+    font-size: 15px;
+}
+.seven_pl1 p:last-child{
+    font-size: 60px;
+    font-family: "Cormorant";
+}
+.seven_pl2{
+    height: 104px;
+    width: 166px;
+    background-image: url(assets/icons/pl_black.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    margin-left: 0;
+}
+.seven_pl2 p:first-child{
+    font-size: 15px;
+}
+.seven_pl2 p:last-child{
+    font-size: 60px;
+    font-family: "Cormorant";
+}
+.card_text{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.card_text h3{
+    font-size: 40px;
+}
+.card_text p:last-child{
+    font-size: 20px;
+}
+.lines_text_black{
+    font-size: 15px;
+    border-bottom: 1px solid #292E36;
+    border-top: 1px solid #292E36;
+    width: 213px;
+    height: 27px;
+    margin-left: 0;
 }
 .section_8 {
     margin-top: 40px;
@@ -465,6 +636,7 @@ aside h3{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-content: space-between;
 }
 .popular_cards{
     display: flex;
@@ -477,6 +649,11 @@ aside h3{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+
+.text_on_black h3{
+    font-size: 40px;
 }
 .nine_left{
     height: 214px;
@@ -487,8 +664,8 @@ aside h3{
     flex-direction: row;
 }
 .nine_right div{
-    height: 235px;
-    width: 254px;
+    height: 195px;
+    width: 214px;
     border: 20px solid #343942;
     display: flex;
     flex-direction: column;
@@ -497,18 +674,79 @@ aside h3{
     font-family: "Cormorant";
     font-size: 25px;
     text-align: center;
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-size: 25px;
 }
 .nine_right img{
     height: 60px;
     width: 60px;
 }
-
+.text_on_black{
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 30px;
+}
+.text_on_black p:first-child{
+    font-size: 15px;
+    width: 172px;
+    height: 27px;
+    margin-left: 0;
+}
+.text_on_black h3{
+    font-size: 40px;
+    margin: 20px 0;
+}
 .section_10 {
     margin-top: 40px;
     height: 974px;
     width: 1360px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+.more_cards{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 1380px;
+    height: 770px;
+}
+.card_more_1{
+    height: 720px;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+}
+.more_button1{
+    width: 640px;
+    height: 384px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/pics/10_sandwich.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more_button2{
+    width: 640px;
+    height: 384px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/pics/10_fish.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+}
+.more_cards button{
+    height: 73px;
+    width: 227px;
+    background-color: #E1B168;
+    text-align: center;
+    color: #292E36;
+    font-size: 22px;
+    border: none;
+    filter: brightness(100%);
 }
 .section_11{
     width: 1440px;
@@ -609,24 +847,58 @@ footer{
     height: 655px;
     width: 1440px;
     background-color: #292E36;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer_main{
+    width: 1360px;
+    height: 574px;
+    align-self: flex-end;
+    margin-top: 150px;
 }
 .footer_top{
     display: flex;
     flex-direction: row;
+    height: 188px;
+    width: 1360px;
 }
 .footer_bottom{
     display: flex;
     flex-direction: row;
+    align-content: space-between;
+    margin-bottom: 0;
+    height: 176px;
+    width: 1360px;
 }
 .footer_nav{
+    width: 1440px;
+    height: 81px;
     display: flex;
     flex-direction: row;
+    align-content: space-between;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 .footer_nav ul{
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+    align-content: space-between;
+    justify-content: center;
 }
-
+.footer_nav li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.f_nav_right{
+    color: #E1B168;
+    margin-right: 0;
+}
+.f_nav_left{
+    margin-left: 0;
+}
 @font-face {
     font-family: 'Josefin';
     src: url(Josefin_Sans/JosefinSans.ttf);
@@ -634,6 +906,6 @@ footer{
 
 @font-face {
     font-family: 'Cormorant';
-    font-weight: 100;
+    font-weight: lighter;
     src: url(Cormorant_Infant/CormorantInfant-Light.ttf);
 }
