@@ -301,6 +301,7 @@ aside div, h3{
     font-size: 15px;
     border-bottom: 1px solid #E1B168;
     border-top: 1px solid #E1B168;
+    letter-spacing: 3px;
 }
 .aside_text_2{
     font-size: 20px;
@@ -503,7 +504,9 @@ aside h3{
     border-radius: 50%;
     margin: 0 5px;
 }
-
+.text_on_black1 p:first-child{
+    width: 172px;
+}
 .section_6{
     height: 600px;
     width: 1440px;
@@ -553,6 +556,7 @@ aside h3{
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    height: 329px;
 }
 .seven_cards img{
     height: 232px;
@@ -569,6 +573,12 @@ aside h3{
     justify-content: center;
     align-items: center;
     background-image: url(assets/pics/pizza_back.png);
+}
+.card_text2 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 329px;
 }
 .dishes_text h3{
     font-family: 'Cormorant';
@@ -676,22 +686,28 @@ aside h3{
     text-align: center;
     margin-left: 20px;
     color: #FFFFFF;
-    font-size: 25px;
+    font-weight: lighter;
 }
 .nine_right img{
     height: 60px;
     width: 60px;
+    margin-bottom: 10px;
 }
 .text_on_black{
     color: #FFFFFF;
     text-align: left;
     margin-left: 30px;
+    font-size: 20px;
+    font-weight: lighter;
 }
 .text_on_black p:first-child{
     font-size: 15px;
     width: 172px;
     height: 27px;
     margin-left: 0;
+}
+.text_on_black p:last-child{
+    width: 438px;
 }
 .text_on_black h3{
     font-size: 40px;
